@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.main {
+    display: flex;
+    width: 100vw;
+    
+
+}
+
+.side-hero {
+    width: 40vw;
+    min-width: 40vw;
+    height: 100vh;
+}
+
+.halie {
+    position:absolute;
+    top: 0;
+    width: 40vw;
+    height: 100vh;
+}
+
+.logo-div {
+    /* border: 2px solid red; */
+    position: relative;
+    top: 35vh;
+    height: 180px;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+}
+
+.odin-logo {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 25px;
+    left: 20%;
+    background: none;
+    width: 100px;
+    
+}
+
+.odin {
+    color: white;
+    font-size: 112px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    background: none;
+    position: relative;
+    top: 15%;
+    left: 40%;
+}
+
+.photo-credentials {
+    position: absolute;
+    bottom: 5px;
+    left: 170px;
+    background: local;
+    color: white;
+}
+
+.photo-credentials a {
+    background: local;
+    color: white;
+    text-decoration: none;
+}
+
+.form {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 0;
+    padding: 20px;
+}
+
+.lorum {
+    /* border: 2px solid red; */
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.user-info {
+    background-color: white;
+    height: 300px;
+    margin-top: 15px;
+    padding: 15px;
+    position: absolute;
+    min-width: 55vw;
+    box-shadow: 5px 5px 3px rgb(110, 109, 109);
+    border-radius: 5px;
+}
+
+.user-info-header {
+    /* border: 2px solid red; */
+    font-size: 52px;
+    background: none;
+    padding-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input {
+    background: none;
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(167, 165, 165);
+    outline: none;
+    
+}
+
+
+input:focus:invalid {
+    border-color: red;
+    box-shadow: 0 0 5px rgb(206, 67, 67);
+}
+
+input:valid {
+    border:1.4px solid green;
+    box-shadow: 0 0 5px rgb(125, 130, 135);
+}
+
+input:focus {
+    border: 1.4px solid rgb(23, 93, 198);
+    box-shadow: 0 0 5px rgb(125, 130, 135);
+}
+
+label:after {
+    content: "*";
+    color: red;
+}
+
+
+.user-info label {
+    background: none;
+    font-size: larger;
+}
+
+.user-info div {
+    /* border: 2px solid red; */
+    background: none;
+}
+
+.form-els {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.form-el {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+button {
+    position: relative;
+    top: 40px;
+    padding: 15px 40px;
+    font-size: 22px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 1px rgb(52, 87, 52);
+}
+
+.login-p {
+    position: relative;
+    top: 60px;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.login-p a {
+    text-decoration: none;
+
+}
+

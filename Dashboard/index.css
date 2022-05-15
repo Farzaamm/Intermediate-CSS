@@ -1,3 +1,199 @@
+
 * {
-    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.sidebar {
+    
+    background-color: rgb(50, 133, 235);
+    color: white;
+    height: 100vh;
+    width: 20vw;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    justify-content: center;
+    justify-items: first baseline;
+    position: absolute;
+}
+
+.nav-item {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+.dashboard-title {
+    font-size:larger;
+    font-weight: 900;
+    padding: 1rem;
+    
+}
+
+.primary-links {
+    display: grid;
+    padding: 1rem;
+    padding-top: 2rem;
+
+}
+
+.secondary-links {
+    display: grid;
+    padding: 1rem;
+    padding: 1rem;
+}
+
+header {
+    position: absolute;
+    left: 20vw;
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+main {
+    position: absolute;
+    left: 20vw;
+    top: 170px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.search-el {
+    width: 550px;
+    border-radius: 10px;
+    height: 1.5rem;
+    border: none;
+    background-color: rgba(216, 215, 215, 0.626);
+    box-shadow: none;
+}
+
+.search-div {
+    display: flex;
+    gap: 5px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.notification-bar {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.bell-icon {
+    padding-left: 1rem;
+}
+
+.notification-bar p {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.hi-user {
+    display: flex;
+    align-items: top;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.hi-user-div :first-child {
+    padding-left: 0%;
+    
+}
+
+.hi-user-div :last-child {
+    font-weight: 700;
+    font-size: 2rem
+}
+
+.profile-photo-2 {
+    width: 70px;
+    height: 70px;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-btn {
+    padding: 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    grid-auto-rows: 180px;
+    grid-template-rows: 2rem;
+}
+
+.your-projects {
+    grid-column: span 2;
+}
+
+.project-card {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-left-color: rgba(255, 166, 0, 0.847);
+    box-shadow: 0px 0px 5px 4px #ddd;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.card-action {
+    justify-self: end;
+}
+
+aside {
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    padding-left: 1rem;
+    
+}
+
+.aside > p {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 0.7rem;
+    box-shadow: 0px 0px 5px 4px #ddd;
 }
